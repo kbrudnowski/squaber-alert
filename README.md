@@ -12,7 +12,7 @@ This app scrapes live stock data, processes it using a streaming Spark job, and 
 
 ```text
 [ Scraper (Kafka Producer) ] --> [ Kafka Topic: "stocks" ] --> [ PySpark Streaming App ] --> [ Telegram Alert ]
-
+```
 ---
 
 ## ⚙️ Components
